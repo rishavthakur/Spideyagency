@@ -3,115 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Digital Marketing Agency</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 50px; }
-        header { background-color: #007bff; color: white; padding: 10px 0; }
-        header nav { margin: 0 15px; }
-        header nav a { color: white; text-decoration: none; margin: 0 15px; }
-        header nav a:hover { text-decoration: underline; }
-        h1 { color: #007bff; }
-        p { font-size: 18px; }
-        .contact { margin-top: 20px; }
-        footer { background-color: #f1f1f1; padding: 10px; text-align: center; margin-top: 40px; }
-    </style>
+    <title>SideDocs Agency</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
+        <div class="logo">
+            <h1>SideDocs Agency</h1>
+        </div>
         <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Our Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
 
     <section id="home">
-        <h1>Welcome to My Digital Marketing Agency!</h1>
-        <p>With 7 years of experience in the industry, I specialize in SEO, content marketing, and lead generation.</p>
-        <p>If you want to grow your business online, get in touch today!</p>
+        <h2>Welcome to Saidocs Agency</h2>
+        <p>Your trusted digital marketing partner for SEO, content creation, and social media marketing.</p>
+        <a href="#contact" class="cta-button">Contact Us</a>
     </section>
 
     <section id="services">
         <h2>Our Services</h2>
+        <h3>SEO Services</h3>
         <ul>
-            <li><strong>SEO Optimization</strong> – Improve your website's ranking on Google.</li>
-            <li><strong>Content Marketing</strong> – Content creation and promotion to engage your audience.</li>
-            <li><strong>PPC Advertising</strong> – Pay-per-click campaigns to bring targeted traffic.</li>
+            <li>On-Page SEO</li>
+            <li>Off-Page SEO</li>
+            <li>Keyword Research</li>
+            <li>SEO Strategy</li>
         </ul>
-    </section>
-
-    <section id="about">
-        <h2>About Us</h2>
-        <p>We are a dedicated digital marketing agency with a passion for helping businesses succeed online.</p>
-        <p>Our mission is to provide innovative solutions that drive growth and create long-lasting results for our clients.</p>
+        <h3>Content Creation</h3>
+        <ul>
+            <li>Blog Posts</li>
+            <li>Social Media Content</li>
+            <li>Website Copywriting</li>
+        </ul>
+        <h3>Social Media Marketing</h3>
+        <ul>
+            <li>Facebook Marketing</li>
+            <li>Instagram Marketing</li>
+            <li>Twitter Marketing</li>
+          
+        </ul>
     </section>
 
     <section id="contact">
         <h2>Contact Us</h2>
-        <p>Email: <b>your-email@example.com</b></p>
-        <p>WhatsApp: <a href="https://wa.me/yourwhatsappnumber" target="_blank">Chat on WhatsApp</a></p>
+        <p>Email: <a href="mailto:rishabhthakub2806@gmail.com">rishabhthakub2806@gmail.com</a></p>
+        <form>
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <label for="message">Your Message:</label><br>
+            <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            <input type="submit" value="Send Message">
+        </form>
     </section>
 
     <footer>
-        <p>&copy; 2025 My Digital Marketing Agency. All Rights Reserved.</p>
-    </footer>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Digital Marketing Agency</title>
-    <style>
-        body { font-family: Arial, sans-serif; text-align: center; padding: 20px; }
-        header { background-color: #007bff; color: white; padding: 10px 0; }
-        nav a { color: white; text-decoration: none; margin: 0 15px; }
-        nav a:hover { text-decoration: underline; }
-        section { padding: 20px; margin: 20px auto; max-width: 800px; }
-        footer { background-color: #f1f1f1; padding: 10px; text-align: center; margin-top: 20px; }
-    </style>
-</head>
-<body>
-    <header>
-        <nav>
-            <a href="#home">Home</a>
-            <a href="#services">Services</a>
-            <a href="#about">About Us</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="home">
-        <h1>Welcome to My Digital Marketing Agency</h1>
-        <p>We help businesses grow online with expert digital marketing strategies.</p>
-    </section>
-    
-    <section id="services">
-        <h2>Our Services</h2>
-        <ul>
-            <li>SEO Optimization</li>
-            <li>Content Marketing</li>
-            <li>Social Media Management</li>
-            <li>Pay-Per-Click Advertising</li>
-        </ul>
-    </section>
-    
-    <section id="about">
-        <h2>About Us</h2>
-        <p>With 7 years of experience, we have helped numerous businesses achieve online success.</p>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <p>Email: your-email@example.com</p>
-        <p>WhatsApp: <a href="https://wa.me/yourwhatsappnumber" target="_blank">Chat on WhatsApp</a></p>
-    </section>
-    
-    <footer>
-        <p>&copy; 2025 My Digital Marketing Agency. All Rights Reserved.</p>
+        <p>&copy; 2025 SideDocs Agency. All rights reserved.</p>
     </footer>
 </body>
 </html>
